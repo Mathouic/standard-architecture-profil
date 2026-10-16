@@ -1,0 +1,3 @@
+[submodule ".claude/rules/modelia"]
+	path = .claude/rules/modelia
+	url = https://github.com/Mathouic/architecture-rules.git
