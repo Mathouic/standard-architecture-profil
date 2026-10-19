@@ -32,6 +32,7 @@ Les icônes `_100` suivent un style par notion : pictogramme bleu pour un compos
 | `architectureProfile.applicativeComponent/` | Le référentiel des profils de composants applicatifs |
 | `architectureProfile.applicativeContext/` | Le référentiel des profils de contextes applicatifs |
 | `architectureProfile.system/` | Le référentiel des profils de composants systèmes |
+| `Stereotypes.md` | Le catalogue des stéréotypes, par référentiel puis par famille |
 
 Chaque référentiel a un `metainfo.yaml` racine (`type: architecture.profiles`). Chaque profil y est un répertoire `<ProfileBaseName>.<ProfileVersion>`.
 | `.claude/rules/modelia/` | Sous-module : les règles de modélisation ([architecture-rules](https://github.com/Mathouic/architecture-rules)) |
@@ -40,5 +41,6 @@ Chaque référentiel a un `metainfo.yaml` racine (`type: architecture.profiles`)
 
 - Le `<ProfileBaseName>` de tout profil de ce dépôt commence par `org.mathouic.modelia.` : rien de spécifique à Training Orchestra n'y figure.
 - Un stéréotype va dans le profil de sa notion (composant applicatif, contexte applicatif ou composant système) et de sa famille. Un hôte liste les components qu'il héberge dans `innerComponents` (composant système → contexte applicatif → composant applicatif).
+- Tout ajout, retrait ou modification d'un stéréotype (méta-informations, icône) est reporté dans `Stereotypes.md`, avec une description courte.
 - Tout fichier créé ou modifié respecte les règles de `.claude/rules/modelia/`, en particulier `architecture/ValidationArchitecture.md`.
 - Les règles sont en lecture seule ici : on les modifie dans le dépôt `architecture-rules`, puis on lance `git submodule update --remote .claude/rules/modelia`.
