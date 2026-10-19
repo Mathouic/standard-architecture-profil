@@ -4,7 +4,7 @@ Référentiel de profils d'architecture **standard** : des stéréotypes génér
 
 ## Domaines
 
-Les profils sont rangés dans un référentiel par notion de la [typologie des components](.claude/rules/modelia/Definitions.md#typologie-des-components) et, pour les contextes et les composants applicatifs, par famille. Chaque famille `<Famille>` a deux profils : `org.mathouic.modelia.architecture.profile.<Famille>.applicationcontext` (les contextes applicatifs, dans `architectureProfile.applicativeContext/`) et `org.mathouic.modelia.architecture.profile.<Famille>.applicative` (les composants applicatifs qu'ils hébergent, dans `architectureProfile.applicativeComponent/`).
+Les profils sont rangés dans un référentiel par notion de la [typologie des components](.claude/rules/modelia/Definitions.md#typologie-des-components) et, pour les contextes et les composants applicatifs, par famille. Chaque famille `<Famille>` a deux profils : `org.mathouic.modelia.architecture.profile.<Famille>.applicationcontext` (les contextes applicatifs, dans `applicativeContext/`) et `org.mathouic.modelia.architecture.profile.<Famille>.applicative` (les composants applicatifs qu'ils hébergent, dans `applicativeComponent/`).
 
 La notion reste dans le nom du profil, même si le référentiel la porte déjà : un modèle ne déclare pas deux profils de même `<ProfileBaseName>` (règle `M-05`), et il peut utiliser les profils `data` des deux référentiels à la fois.
 
@@ -20,8 +20,8 @@ La notion reste dans le nom du profil, même si le référentiel la porte déjà
 
 | Profil | Contenu |
 |---|---|
-| `org.mathouic.modelia.architecture.profile.system` (dans `architectureProfile.system/`) | Les composants systèmes : l'infrastructure sur laquelle s'exécutent les contextes applicatifs (machine virtuelle, conteneur, Kubernetes…) et le réseau (réseau virtuel, load balancer, pare-feu…) |
-| `org.mathouic.modelia.architecture.profile.applicative` (dans `architectureProfile.applicativeComponent/`) | Les stéréotypes applicatifs transverses, hors famille (vide pour l'instant) |
+| `org.mathouic.modelia.architecture.profile.system` (dans `system/`) | Les composants systèmes : l'infrastructure sur laquelle s'exécutent les contextes applicatifs (machine virtuelle, conteneur, Kubernetes…) et le réseau (réseau virtuel, load balancer, pare-feu…) |
+| `org.mathouic.modelia.architecture.profile.applicative` (dans `applicativeComponent/`) | Les stéréotypes applicatifs transverses, hors famille (vide pour l'instant) |
 
 Les icônes `_100` suivent un style par notion : pictogramme bleu pour un composant applicatif, carré bleu pour un contexte applicatif, carré gris ardoise pour un composant système.
 
@@ -29,9 +29,9 @@ Les icônes `_100` suivent un style par notion : pictogramme bleu pour un compos
 
 | Chemin | Contenu |
 |---|---|
-| `architectureProfile.applicativeComponent/` | Le référentiel des profils de composants applicatifs |
-| `architectureProfile.applicativeContext/` | Le référentiel des profils de contextes applicatifs |
-| `architectureProfile.system/` | Le référentiel des profils de composants systèmes |
+| `applicativeComponent/` | Le référentiel des profils de composants applicatifs |
+| `applicativeContext/` | Le référentiel des profils de contextes applicatifs |
+| `system/` | Le référentiel des profils de composants systèmes |
 | `Stereotypes.md` | Le catalogue des stéréotypes, par référentiel puis par famille |
 
 Chaque référentiel a un `metainfo.yaml` racine (`type: architecture.profiles`). Chaque profil y est un répertoire `<ProfileBaseName>.<ProfileVersion>`.
