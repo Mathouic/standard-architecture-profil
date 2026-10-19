@@ -30,7 +30,7 @@ Profil `org.mathouic.modelia.architecture.profile.runtime.applicative.V01_00_000
 | Icône | Stéréotype | Cible | Méta-informations | Description |
 |:---:|---|---|---|---|
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.runtime.applicative.V01_00_000/icons/WebApi_100.png" width="40"> | `WebApi` | component | `version` : string | API web |
-| <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.runtime.applicative.V01_00_000/icons/WebApplication_100.png" width="40"> | `WebApplication` | component | `version` : string | Application web |
+| <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.runtime.applicative.V01_00_000/icons/WebApplication_100.png" width="40"> | `WebApplication` | component | `applicativeContext` : string<br>`version` : string | Application web |
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.runtime.applicative.V01_00_000/icons/Worker_100.png" width="40"> | `Worker` | component | `version` : string | Traitement d'arrière-plan ou batch |
 
 ### Données (`data`)
@@ -40,7 +40,7 @@ Profil `org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000`
 | Icône | Stéréotype | Cible | Méta-informations | Description |
 |:---:|---|---|---|---|
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/BlobContainer_100.png" width="40"> | `BlobContainer` | component | — | Conteneur de blobs |
-| <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/Database_100.png" width="40"> | `Database` | component | `compatibilityLevel` : string<br>`collation` : string | Base de données |
+| <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/Database_100.png" width="40"> | `Database` | component | `applicativeContext` : string<br>`version` : string | Base de données |
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/FileShare_100.png" width="40"> | `FileShare` | component | — | Partage de fichiers |
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/Schema_100.png" width="40"> | `Schema` | component | — | Schéma d'une base de données |
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/SsisPackage_100.png" width="40"> | `SsisPackage` | component | — | Package SSIS |

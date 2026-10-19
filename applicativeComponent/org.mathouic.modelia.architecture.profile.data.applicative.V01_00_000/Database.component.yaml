@@ -1,4 +1,4 @@
 type: architecture.stereotype
 metainfo:
-  compatibilityLevel: string
-  collation: string
+  applicativeContext: string #MSSQL server, Posagresql
+  version: string #version de la base de données

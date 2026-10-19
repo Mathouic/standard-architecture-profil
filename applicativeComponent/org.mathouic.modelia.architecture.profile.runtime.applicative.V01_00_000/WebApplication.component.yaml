@@ -1,3 +1,4 @@
 type: architecture.stereotype
 metainfo:
+  applicativeContext: string
   version: string
