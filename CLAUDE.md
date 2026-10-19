@@ -8,7 +8,7 @@ Référentiel de profils d'architecture **standard** : des stéréotypes génér
 |---|---|---|
 | Architecture applicative | `org.mathouic.modelia.architecture.profile.applicative` | Les composants applicatifs (développés en interne ou pris sur étagère) et les flux entre ces composants |
 
-## Organisation
+## OrganisationR
 
 | Chemin | Contenu |
 |---|---|
