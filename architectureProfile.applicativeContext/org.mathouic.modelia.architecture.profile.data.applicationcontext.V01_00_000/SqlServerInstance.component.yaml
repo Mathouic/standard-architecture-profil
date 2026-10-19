@@ -1,0 +1,5 @@
+type: architecture.stereotype
+metainfo:
+  version: string
+  edition: string
+  instanceName: string

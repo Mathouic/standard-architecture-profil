@@ -1,0 +1,4 @@
+type: architecture.stereotype
+metainfo:
+  compatibilityLevel: string
+  collation: string

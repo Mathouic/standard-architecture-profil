@@ -1,0 +1,5 @@
+type: architecture.stereotype
+metainfo:
+  os: string
+  osVersion: string
+  size: string

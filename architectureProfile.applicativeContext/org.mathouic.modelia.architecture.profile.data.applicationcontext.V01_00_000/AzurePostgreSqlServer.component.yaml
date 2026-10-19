@@ -1,0 +1,4 @@
+type: architecture.stereotype
+metainfo:
+  version: string
+  serviceTier: string
