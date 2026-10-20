@@ -41,7 +41,7 @@ Profil `org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000`
 |:---:|---|---|---|---|
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/BlobContainer_100.png" width="40"> | `BlobContainer` | component | — | Conteneur de blobs |
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/Database_100.png" width="40"> | `Database` | component | `applicativeContext` : string<br>`version` : string | Base de données |
-| <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/FileShare_100.png" width="40"> | `FileShare` | component | — | Partage de fichiers |
+| <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/FileShare_100.png" width="40"> | `FileShare` | component | `applicativeContext` : string<br>`protocol` : string<br>`protocolVersion` : string | Partage de fichiers |
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/Schema_100.png" width="40"> | `Schema` | component | — | Schéma d'une base de données |
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/SsisPackage_100.png" width="40"> | `SsisPackage` | component | — | Package SSIS |
 | <img src="applicativeComponent/org.mathouic.modelia.architecture.profile.data.applicative.V01_00_000/icons/SsrsReport_100.png" width="40"> | `SsrsReport` | component | — | Rapport SSRS |

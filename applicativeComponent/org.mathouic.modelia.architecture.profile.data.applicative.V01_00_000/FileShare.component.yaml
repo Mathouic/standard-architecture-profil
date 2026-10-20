@@ -1,1 +1,5 @@
 type: architecture.stereotype
+metainfo:
+  applicativeContext: string #Windows Server, Azure Files, NAS
+  protocol: string #SMB, NFS, FTP, SFTP
+  protocolVersion: string #version du protocole, ex. 3.1.1 pour SMB
