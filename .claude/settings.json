@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "modelia": {
+      "source": { "source": "github", "repo": "Mathouic/modelia-claude-plugin" }
+    }
+  },
+  "enabledPlugins": {
+    "modelia-claude-plugin@modelia": true
+  }
+}

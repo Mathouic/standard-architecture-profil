@@ -33,9 +33,10 @@ Les icônes `_100` suivent un style par notion : pictogramme bleu pour un compos
 | `applicativeContext/` | Le référentiel des profils de contextes applicatifs |
 | `system/` | Le référentiel des profils de composants systèmes |
 | `Stereotypes.md` | Le catalogue des stéréotypes, par référentiel puis par famille |
+| `.claude/rules/modelia/` | Sous-module : les règles de modélisation ([architecture-rules](https://github.com/Mathouic/architecture-rules)) |
+| `.claude/settings.json` | Active le plugin `modelia-claude-plugin` : les skills partagés ([modelia-claude-plugin](https://github.com/Mathouic/modelia-claude-plugin)) |
 
 Chaque référentiel a un `metainfo.yaml` racine (`type: architecture.profiles`). Chaque profil y est un répertoire `<ProfileBaseName>.<ProfileVersion>`.
-| `.claude/rules/modelia/` | Sous-module : les règles de modélisation ([architecture-rules](https://github.com/Mathouic/architecture-rules)) |
 
 ## Consignes
 
